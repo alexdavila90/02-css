@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            height: 100px;
+            width: 100px;
+            border: 1px solid saddlebrown;
+            position: static;
+        }
+
+        .relativa {
+            position: relative; /*relativo al ultimo elemento de la pantalla*/
+            top: 30px;
+            left: 300px;
+        }
+
+        .fija {
+            position: fixed; /*respecto a la pantalla*/
+            top: 50%;
+            right: 10%;
+        }
+
+        .padre{
+            width: 200px;
+            height: 200px;
+            border: 1px solid;
+            background-color: blueviolet;
+            position: relative;
+            left: 50%;
+        }
+
+        .hijo{
+            position: absolute;   /*absoluta respecto a la posicion del padre*/
+            background-color: chartreuse;
+            bottom: 0%;
+            right: 0%;
+        }
+    </style>
+</head>
+
+<body>
+    <div>1</div>
+    <div class="relativa">2</div>
+    <div class="fija">3</div>
+    <div class="padre">
+        Este texto es una muestra de que es padre
+        <div class="hijo">HIJO</div>
+    </div>
+</body>
+
+</html>

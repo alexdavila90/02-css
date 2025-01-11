@@ -1,0 +1,65 @@
+.mi-clase1 {
+    background-color: aquamarine;
+    width: 500px;
+    height: 100px;
+}
+
+.p1-class {
+    background-color: green;
+    text-decoration: line-through;
+}
+
+.p2-class {
+    background-color: yellow;
+    text-decoration: overline;
+}
+
+#p3-id {
+    background-color: red;
+    text-decoration: underline;
+}
+
+.mi-clase2{
+    background-color: darkkhaki;
+    width: 800px;
+    height: 200px;
+
+}
+
+.mi-clase3{
+    background-color: navajowhite;
+    width: 800px;
+    height: 150px;
+}
+
+.mi-clase4{
+    background-color:white;
+    width: 800px;
+    height: 150px;
+}
+.up {
+    text-transform: uppercase;
+}
+
+.down {
+    text-transform: lowercase;
+}
+
+.cap {
+    text-transform: capitalize;
+}
+
+h1{
+    text-align: center;
+}
+.alineacion{
+    text-align: justify;
+}
+
+.indentar{
+    border: rgb(204, 70, 70) solid 3px;
+    text-indent: 10%;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-shadow: 8px 8px 8px green, 6px 6px 6px black, 2px 2px 2px blue;
+}

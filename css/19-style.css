@@ -1,0 +1,30 @@
+.padre {
+    display: flex;
+    flex-direction: column;
+    /*height: calc(60Vh);
+    width: 100%;*/
+    height: 600px;
+    width: 600px;
+    background-color: blue;
+}
+
+.hijo1 {
+    width: calc(100%);
+    height: 66.6%;
+    background-color: red;
+    display: flex;
+}
+
+.hijo2 {
+    width: calc(33.3%);
+    height: 66.6%;
+    background-color: yellow;
+}
+
+
+
+.hijo3 {
+    width: calc(33.3%);
+    height: 33.6%;
+    background-color: aqua;
+}

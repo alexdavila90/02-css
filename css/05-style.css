@@ -1,0 +1,16 @@
+.clase1{
+width: 700px;
+height: 300px;
+background-color: orange;
+margin-bottom: 20px;
+border: solid 20px;
+box-sizing: content-box;
+}
+
+.clase2{
+width: 700px;
+height: 300px;
+background-color: darkmagenta;
+border: solid 20px;
+box-sizing: border-box; /* Es el correcto porque el tamaño total suma al contenido con el borde */
+}
